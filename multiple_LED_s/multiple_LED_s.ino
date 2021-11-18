@@ -1,105 +1,116 @@
-int redLed=8;
-int blueLed=8;
-int greenLed=8;
-int red=50;
+int redLED=8;
+int blueLED=10;
+int red=100;
 int blue=100;
-int green=500;
+int Lwait=200;
 void setup() {
   // put your setup code here, to run once:
-pinMode(redLed,OUTPUT);
-pinMode(blueLed,OUTPUT);
-pinMode(greenLed,OUTPUT);
+pinMode(redLED,OUTPUT);
+pinMode(blueLED,OUTPUT);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-digitalWrite(redLed,HIGH);
+digitalWrite(redLED,HIGH);
 delay(red);
-digitalWrite(redLed,LOW);
+digitalWrite(redLED,LOW);
+digitalWrite(blueLED,HIGH);
+delay(blue);
+digitalWrite(blueLED,LOW);
+
+digitalWrite(redLED,HIGH);
 delay(red);
+digitalWrite(redLED,LOW);
+digitalWrite(blueLED,HIGH);
+delay(blue);
+digitalWrite(blueLED,LOW);
 
-digitalWrite(redLed,HIGH);
+
+digitalWrite(redLED,HIGH);
 delay(red);
-digitalWrite(redLed,LOW);
+digitalWrite(redLED,LOW);
+digitalWrite(blueLED,HIGH);
+delay(blue);
+digitalWrite(blueLED,LOW);
+
+digitalWrite(redLED,HIGH);
 delay(red);
+digitalWrite(redLED,LOW);
+digitalWrite(blueLED,HIGH);
+delay(blue);
+digitalWrite(blueLED,LOW);
 
-digitalWrite(redLed,HIGH);
+digitalWrite(redLED,HIGH);
 delay(red);
-digitalWrite(redLed,LOW);
+digitalWrite(redLED,LOW);
+digitalWrite(blueLED,HIGH);
+delay(blue);
+digitalWrite(blueLED,LOW);
+
+digitalWrite(redLED,HIGH);
 delay(red);
+digitalWrite(redLED,LOW);
+digitalWrite(blueLED,HIGH);
+delay(blue);
+digitalWrite(blueLED,LOW);
 
-digitalWrite(redLed,HIGH);
+digitalWrite(redLED,HIGH);
 delay(red);
-digitalWrite(redLed,LOW);
-delay(red);
+digitalWrite(redLED,LOW);
+digitalWrite(blueLED,HIGH);
+delay(blue);
+digitalWrite(blueLED,LOW);
+//single blinking finish
 
-digitalWrite(redLed,HIGH);
-delay(red);
-digitalWrite(redLed,LOW);
-delay(red);
+digitalWrite(redLED,HIGH);
+digitalWrite(blueLED,HIGH);
+delay(Lwait);
+digitalWrite(redLED,LOW);
+digitalWrite(blueLED,LOW);
+delay(Lwait);
 
-digitalWrite(blueLed,HIGH);
-delay(blue);
-digitalWrite(blueLed,LOW);
-delay(blue);
+digitalWrite(redLED,HIGH);
+digitalWrite(blueLED,HIGH);
+delay(Lwait);
+digitalWrite(redLED,LOW);
+digitalWrite(blueLED,LOW);
+delay(Lwait);
 
-digitalWrite(blueLed,HIGH);
-delay(blue);
-digitalWrite(blueLed,LOW);
-delay(blue);
+digitalWrite(redLED,HIGH);
+digitalWrite(blueLED,HIGH);
+delay(Lwait);
+digitalWrite(redLED,LOW);
+digitalWrite(blueLED,LOW);
+delay(Lwait);
 
-digitalWrite(blueLed,HIGH);
-delay(blue);
-digitalWrite(blueLed,LOW);
-delay(blue);
+digitalWrite(redLED,HIGH);
+digitalWrite(blueLED,HIGH);
+delay(Lwait);
+digitalWrite(redLED,LOW);
+digitalWrite(blueLED,LOW);
+delay(Lwait);
 
-digitalWrite(blueLed,HIGH);
-delay(blue);
-digitalWrite(blueLed,LOW);
-delay(blue);
+digitalWrite(redLED,HIGH);
+digitalWrite(blueLED,HIGH);
+delay(Lwait);
+digitalWrite(redLED,LOW);
+digitalWrite(blueLED,LOW);
+delay(Lwait);
 
-digitalWrite(blueLed,HIGH);
-delay(blue);
-digitalWrite(blueLed,LOW);
-delay(blue);
+digitalWrite(redLED,HIGH);
+digitalWrite(blueLED,HIGH);
+delay(Lwait);
+digitalWrite(redLED,LOW);
+digitalWrite(blueLED,LOW);
+delay(Lwait);
 
-digitalWrite(blueLed,HIGH);
-delay(blue);
-digitalWrite(blueLed,LOW);
-delay(blue);
+digitalWrite(redLED,HIGH);
+digitalWrite(blueLED,HIGH);
+delay(Lwait);
+digitalWrite(redLED,LOW);
+digitalWrite(blueLED,LOW);
+delay(Lwait);
 
-digitalWrite(blueLed,HIGH);
-delay(blue);
-digitalWrite(blueLed,LOW);
-delay(blue);
 
-digitalWrite(blueLed,HIGH);
-delay(blue);
-digitalWrite(blueLed,LOW);
-delay(blue);
 
-digitalWrite(blueLed,HIGH);
-delay(blue);
-digitalWrite(blueLed,LOW);
-delay(blue);
-
-digitalWrite(blueLed,HIGH);
-delay(blue);
-digitalWrite(blueLed,LOW);
-delay(blue);
-
-digitalWrite(greenLed,HIGH);
-delay(green);
-digitalWrite(greenLed,LOW);
-delay(green);
-
-digitalWrite(greenLed,HIGH);
-delay(green);
-digitalWrite(greenLed,LOW);
-delay(green);
-digitalWrite(greenLed,HIGH);
-delay(green);
-digitalWrite(greenLed,LOW);
-delay(green);
-delay(1000);
 }
